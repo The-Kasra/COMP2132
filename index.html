@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>.: Kasra Feili - COMP 2132 Final Project :.</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.scss">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://thekasra.ca/"><img src="images/Logo_128.png" height="96"
+                    width="96" /></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="https://www.bcit.ca/" class="nav-link smoothScroll" target="_blank">BCIT</a>
+                    </li>
+                </ul>
+
+                <ul class="social-icon ml-lg-3">
+                    <li><a href="https://www.linkedin.com/in/kasrafeili" class="fa fa-linkedin" target="_blank"></a>
+                    </li>
+                    <li><a href="callto:+17789958736" class="fa fa-phone" target="_blank"></a></li>
+                    <li><a href="mailto:kasra@thekasra.ca" class="fa fa-envelope" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Players -->
+    <section class="project">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12 text-center mb-5">
+                    <h3 data-aos="fade-in" data-aos-delay="300">.::. DICE GAME .::.</h3>
+                </div>
+
+                <div class="mt-5 mt-lg-0 mt-md-0 col-lg-12 col-md-12 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-thumb">
+                        <div class="row project-info">
+                            <!-- Player 1 -->
+                            <div class="player mt-5 mt-lg-0 mt-md-0 col-lg-6 col-md-6 col-6" id="divPlayer1">
+                                <h2 id="p1Name" data-aos="fade-up" data-aos-delay="200">Player Name</h2>
+                                <div class="dice">
+                                    <img id="p1Dice1" src="images/rolling-dices.png" data-aos="fade-up" data-aos-delay="300">
+                                    <img id="p1Dice2" src="images/rolling-dices.png" data-aos="fade-up" data-aos-delay="300">
+                                </div>
+                                <div class="col-12" style="text-align: center;">
+                                    <button class="btn-rolldice-disabled" id="btnRollDice" disabled
+                                        data-aos="fade-up" data-aos-delay="350">
+                                        Roll Dice</i></button>
+                                </div>
+                                <!-- Player 1 Result -->
+                                <!-- Roll 1 -->
+                                <div class="row" style="padding-left:20px;">
+                                    <div class="roll-result">
+                                        <img id="p1Roll1Dice1" alt="" data-aos="fade-up" data-aos-delay="400">
+                                    </div>
+                                    <div class="roll-result">
+                                        <img id="p1Roll1Dice2" alt="" data-aos="fade-up" data-aos-delay="400">
+                                    </div>
+                                    <div class="roll-result">
+                                        <p id="p1Roll1Score" data-aos="fade-up" data-aos-delay="400">Score:</p>
+                                    </div>
+                                </div>
+                                <!-- Roll 2 -->
+                                <div class="row" style="padding-left:20px;">
+                                    <div class="roll-result">
+                                        <img id="p1Roll2Dice1" alt="" data-aos="fade-up" data-aos-delay="500">
+                                    </div>
+                                    <div class="roll-result">
+                                        <img id="p1Roll2Dice2" alt="" data-aos="fade-up" data-aos-delay="500">
+                                    </div>
+                                    <div class="roll-result">
+                                        <p id="p1Roll2Score" data-aos="fade-up" data-aos-delay="500">Score:</p>
+                                    </div>
+                                </div>
+                                <!-- Roll 3 -->
+                                <div class="row" style="padding-left:20px;">
+                                    <div class="roll-result">
+                                        <img id="p1Roll3Dice1" alt="" data-aos="fade-up" data-aos-delay="600">
+                                    </div>
+                                    <div class="roll-result">
+                                        <img id="p1Roll3Dice2" alt="" data-aos="fade-up" data-aos-delay="600">
+                                    </div>
+                                    <div class="roll-result">
+                                        <p id="p1Roll3Score" data-aos="fade-up" data-aos-delay="600">Score:</p>
+                                    </div>
+                                </div>
+                                <h4 id="p1TotalScore" style="text-align: center;" data-aos="fade-up" data-aos-delay="700">Total Score: </h4>
+                            </div>
+
+                            <!-- Player 2 -->
+                            <div class="player mt-5 mt-lg-0 mt-md-0 col-lg-6 col-md-6 col-6" id="divPlayer2">
+                                <h2 id="p2Name" data-aos="fade-up" data-aos-delay="200">Computer</h2>
+                                <div class="dice">
+                                    <img id="p2Dice1" src="images/rolling-dices.png" data-aos="fade-up" data-aos-delay="300">
+                                    <img id="p2Dice2" src="images/rolling-dices.png" data-aos="fade-up" data-aos-delay="300">
+                                </div>
+                                <div class="formdiv col-12" style="text-align: center;">
+                                    <h4 id="p2RollTitle" data-aos="fade-up" data-aos-delay="350">Computer Roll</h3>
+                                </div>
+                                <!-- Player 2 Result -->
+                                <!-- Roll 1 -->
+                                <div class="row" style="padding-left:20px;">
+                                    <div class="roll-result">
+                                        <img id="p2Roll1Dice1" alt="" data-aos="fade-up" data-aos-delay="400">
+                                    </div>
+                                    <div class="roll-result">
+                                        <img id="p2Roll1Dice2" alt="" data-aos="fade-up" data-aos-delay="400">
+                                    </div>
+                                    <div class="roll-result">
+                                        <p id="p2Roll1Score" data-aos="fade-up" data-aos-delay="400">Score:</p>
+                                    </div>
+                                </div>
+                                <!-- Roll 2 -->
+                                <div class="row" style="padding-left:20px;">
+                                    <div class="roll-result">
+                                        <img id="p2Roll2Dice1" alt="" data-aos="fade-up" data-aos-delay="500">
+                                    </div>
+                                    <div class="roll-result">
+                                        <img id="p2Roll2Dice2" alt="" data-aos="fade-up" data-aos-delay="500">
+                                    </div>
+                                    <div class="roll-result">
+                                        <p id="p2Roll2Score" data-aos="fade-up" data-aos-delay="500">Score:</p>
+                                    </div>
+                                </div>
+                                <!-- Roll 3 -->
+                                <div class="row" style="padding-left:20px;">
+                                    <div class="roll-result">
+                                        <img id="p2Roll3Dice1" alt="" data-aos="fade-up" data-aos-delay="600">
+                                    </div>
+                                    <div class="roll-result">
+                                        <img id="p2Roll3Dice2" alt="" data-aos="fade-up" data-aos-delay="600">
+                                    </div>
+                                    <div class="roll-result">
+                                        <p id="p2Roll3Score" data-aos="fade-up" data-aos-delay="600">Score:</p>
+                                    </div>
+                                </div>
+                                <h4 id="p2TotalScore" style="text-align: center;"  data-aos="fade-up" data-aos-delay="700">Total Score: </h4>
+                            </div>
+
+                            <div class="col-12" style="text-align: center;padding-top: 20px;;">
+                                <button class="btn-newgame" id="btnNewGame"  data-aos="fade-up" data-aos-delay="900">
+                                    NEW GAME</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="col-lg-12 col-md-12">
+            <div class="container">
+                <div class="row">
+                    <div class="ml-auto text-center col-lg-12 col-md-12 col-sm-12">
+                        <p>
+                            Designed and coded with <i class="fa fa-heart" style="color:#f01818"></i> and <i
+                                class="fa fa-coffee" style="color:#fff97a"></i>
+                            <br />by<a href="http://www.thekasra.ca" target="_blank"> Kasra Feili</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/final.js" defer></script>
+
+
+
+</body>
+
+</html>
