@@ -182,7 +182,7 @@ function computerRollDice() {
                 $('#p2Dice2').css('display', 'none')
                 $('#p2Dice1').attr('src', 'images/Looser.png');
                 fadeInJs(document.getElementById("p2Dice1"));
-                $('#p2Name').text(player2.name + ' Loosed :(');
+                $('#p2Name').text('Computer Loosed :(');
                 $('#btnNewGame').show();
             }
             // Computer won
@@ -191,7 +191,7 @@ function computerRollDice() {
                 $('#p2Dice2').css('display', 'none');
                 $('#p2Dice1').attr('src', 'images/Champion.png');
                 fadeInJs(document.getElementById("p2Dice1"));
-                $('#p2Name').text(player2.name + ' Won the Game)')
+                $('#p2Name').text('Computer Won the Game)')
 
                 $('#p1Dice2').css('display', 'none')
                 $('#p1Dice1').attr('src', 'images/Looser.png');
